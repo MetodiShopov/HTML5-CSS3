@@ -1,0 +1,47 @@
+#wrapper{
+    background-color: pink;
+    width: 450px;
+    display: inline-block;
+}
+#left{
+    width: 200px;
+    padding: 5px;
+    float: left;
+}
+#right{
+    width: 200px;
+    padding: 5px;
+    float: left;
+}
+header h1 {
+    font-style: italic;
+    text-align: center;
+}
+label{
+    font-style: italic;
+    font-size: small;
+}
+input, select{
+    width: 100%;
+    margin: auto;
+}
+.box{
+    width: 62px;
+    display: inline-block;
+    margin: 1px;
+}
+input[type="time"]{
+    width: 46%;
+}
+input[type="checkbox"]{
+    width: 13px;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+input[type="submit"]{
+    font-weight: bold;
+    margin-top: 5px;
+}
+p{
+    margin: 19px;
+}

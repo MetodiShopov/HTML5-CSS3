@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link rel="stylesheet" href="Styles/02.FlightOrder.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>FLIGHT ORDER</h1>
+        </header>
+            <form method="post">
+                <div id="left">
+                    <label for="fromCity">From</label>
+                    <br>
+                    <select name="fromCity" id="fromCity">
+                        <option value="Value 1">enter a city</option>
+                        <option value="Value 2">Sofia</option>
+                        <option value="Value 3">Varna</option>
+                    </select>
+
+                    <p></p>
+
+                    <label for="depDate">Departure Date</label>
+                    <input name="startDate" type="date" id="depDate" value="2014-06-09"/>
+
+                    <label for="retDate">Return Date</label>
+                    <input name="startDate" type="date" id="retDate" value="2014-06-13"/>
+
+                    <div class="box">
+                        <label for="12+">12+</label>
+                        <input type="number" name="12+" id="12+" value="0">
+                    </div>
+                    <div class="box">
+                        <label for="2-12">2-12</label>
+                        <input type="number" name="2-12" id="2-12" value="0">
+                    </div>
+                    <div class="box">
+                        <label for="0-2">0-2</label>
+                        <input type="number" name="0-2" id="0-2"value="0" >
+                    </div>
+                </div>
+                <div id="right">
+                    <label for="toCity">To</label>
+                    <br>
+                    <select name="fromCity" id="toCity">
+                        <option value="Value 1">enter a city</option>
+                        <option value="Value 2">Sofia</option>
+                        <option value="Value 3">Varna</option>
+                    </select>
+
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">Prefer directs</label>
+                    <br>
+
+                    <label for="depStartTime">Time Interval</label>
+                    <br>
+                    <input type="time" name="depStartTime" id="depStartTime" value="00:20">
+                    <input type="time" name="depEndTime" id="depEndTime" value="05:00">
+
+                    <label for="retStartTime">Time Interval</label>
+                    <br>
+                    <input type="time" name="retStartTime" id="retStartTime" value="16:00">
+                    <input type="time" name="retEndTime" id="retEndTime" value="22:00">
+
+                    <label for="class">Choose class</label>
+                    <select name="class" id="class">
+                        <option value="Value 1">Economy</option>
+                        <option value="Value 2">Business</option>
+                    </select>
+
+                    <input type="submit" value="Search">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+#wrapper{
+    background-color: #EEEEEE;
+    padding: 10px;
+    width: 760px;
+    display: inline-block;
+
+}
+#login{
+    width: 380px;
+    height: 300px;
+    float: left;
+}
+#register{
+    background-color: #234465;
+    width: 380px;
+    height: 300px;
+    float: left;
+}
+#register h2{
+    color: white;
+}
+h2{
+    margin: 10px;
+}
+input{
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+}
+#reg{
+    width: auto;
+    color: #234465;
+    background-color: #EEEEEE;
+    border: 2px solid #234465;
+    padding: 5px 30px;
+    float: right;
+}
+#log {
+    width: auto;
+    color: white;
+    background-color: #234465;
+    border: 2px solid #FD9B01;
+    margin-top: 0px;
+    padding: 5px 40px;
+    float: right;
+}
+#forgotP{
+    float: right;
+}
+#forgotP{
+    margin-left: 130px;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+form label{
+    color: white;
+}
+#check{
+    text-align: left;
+    width: 10px;
+}

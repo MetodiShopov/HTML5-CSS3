@@ -1,0 +1,28 @@
+﻿
+table, td, th {
+	border: 1px solid black;
+	width: 350px;
+}
+#first{
+	font-size:large;
+	font-weight:bolder;
+    text-transform: uppercase;
+}
+tr{
+	height: 100px;
+	border: 1px solid black;
+	height: 80px;
+}
+#special {
+	width: 99%;
+	height: 50%;
+	margin: 2px 0px 2px 0px;
+	font-size: x-small;
+}
+button{
+	width: 99%;
+	height:99%;
+    font-weight: bold;
+    color: blue;
+    background: linear-gradient(#F2F2F2, #D2D2D2);
+}

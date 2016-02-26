@@ -1,0 +1,170 @@
+#wrapper{
+    margin: 10px auto;
+    width: 960px;
+    height: 600px;
+}
+body{
+    background-color: #04396F;
+}
+header{
+    height: 100px;
+}
+main{
+    background-color: #1870B0;
+    height: 500px;
+    padding: 10px;
+}
+#line{
+    display: inline;
+}
+#logo{
+    height: 90px;
+    width: 90px;
+}
+nav{
+    font-family: "Arial", sans-serif;
+    color: white;
+}
+nav ul{
+    display: inline;
+}
+nav ul li{
+    display: inline;
+    margin: 30px;
+    padding: 5px;
+}
+nav ul li:hover{
+    color: #04396F;
+    background-color: white;
+    border-radius: 10px;
+}
+footer{
+    height: 100px;
+    color: white;
+    display: inline-block;
+}
+footer > *{
+    display: inline-block;
+}
+footer ul{
+    font-family: "Arial", sans-serif;
+    padding-left: 10px;
+    margin: 0px;
+}
+footer ul li{
+    margin: 10px;
+}
+footer p{
+    text-align: center;
+    width: 60%;
+    margin: 0px;
+}
+#FB{
+    width: 42px;
+    height: 42px;
+    background: url("../images/mini-social-icons.png") 0 0;
+    border: 1px solid #888888;
+    border-radius: 25px;
+}
+#FB:hover{
+    background: url("../images/mini-social-icons.png") 0 42px;
+}
+#google{
+    width: 42px;
+    height: 42px;
+    background: url("../images/mini-social-icons.png") 42px 0;
+    border: 1px solid #888888;
+    border-radius: 25px;
+}
+#google:hover{
+    background: url("../images/mini-social-icons.png") 42px 42px;
+}
+#twitter{
+    width: 42px;
+    height: 42px;
+    background: url("../images/mini-social-icons.png") 84px 0;
+    border: 1px solid #888888;
+    border-radius: 25px;
+}
+#twitter:hover {
+    background: url("../images/mini-social-icons.png") 84px 42px;
+}
+#table{
+    width: 50%;
+    float: left;
+}
+table{
+    border-collapse:collapse;
+    margin-left: 20px;
+}
+table * {
+    margin: 5px;
+    color: white;
+}
+th{
+    text-align: center;
+}
+tr:nth-child(2){
+    border: none;
+    text-align: center;
+}
+td{
+    padding: 5px;
+}
+td:nth-child(1){
+    text-align: center;
+}
+td:nth-child(2){
+     width: 200px;
+ }
+td:nth-child(3){
+    text-align: center;
+}
+td:nth-child(4){
+    text-align: center;
+}
+td:nth-child(5){
+    text-align: center;
+}
+td:nth-child(6){
+    text-align: center;
+}
+tr:nth-child(3) * {
+    border: 1px solid white;
+    background-color: rgba(0, 255, 0, 0.4);
+}
+tr:nth-child(4) * {
+    border: 1px solid white;
+    background-color: rgba(0, 255, 0, 0.4);
+}
+tr:nth-child(5) * {
+    border: 1px solid white;
+    background-color: rgba(0, 255, 0, 0.6);
+    font-style: italic;
+}
+tr:nth-child(6) * {
+    border: 1px solid white;
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+form{
+    width: 50%;
+    float: right;
+    margin-top: 5px;
+}
+label, legend{
+    color: white;
+}
+span{
+    color: red;
+}
+input[type=checkbox]{
+    display: inline;
+}
+#fbox{
+    display: block;
+}
+#business, #count{
+    width: 50%;
+    float: left;
+}

@@ -1,0 +1,29 @@
+﻿header {
+	background-color: #234465;
+}
+table{
+	float: right;
+}
+td{
+	padding: 0px 5px 0px 5px;
+	font-size:large;
+	font-weight:bolder;
+    text-transform: uppercase;
+	color: #90A1B1;
+}
+select{
+	font-size:large;
+	font-weight:bolder;
+    text-transform: uppercase;
+	color: #90A1B1;
+	background-color: #234465;
+	border: none;
+}
+a{
+	color: #90A1B1;
+	text-decoration: none;
+	background-color: #234465;
+	font-size:large;
+	font-weight:bolder;
+    text-transform: uppercase;
+}
