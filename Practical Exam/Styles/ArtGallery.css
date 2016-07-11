@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: #F0E3D3;
+}
+section{
+    width: 900px;
+    height: 500px;
+    margin:auto;
+    background-color: #D7A081;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: #D7A081;
+    border-radius: 10px;
+}
+a:hover{
+    color: white;
+    box-shadow: 0px 0px 20px #9F9892;
+}
+.white{
+    background-color: white;
+    padding: 30px 20px;
+    margin: 60px 0px;
+}
+#part1, #part3 {
+    float: left;
+    padding: 0px 50px;
+}
+#part2{
+    float: left;
+    padding: 60px 50px;
+}
+#part2{
+    background-color: #75191A;
+}
+#pDiv{
+    background-color: white;
+    padding: 30px;
+}
+#img{
+    width: 170px;
+    height:320px;
+    border-radius: 10px;
+    background: url("../Images/picture.jpg") 250px 0;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Free Account</title>
+    <link rel="stylesheet" href="Styles/FreeAccount.css">
+</head>
+<body>
+    <div id="content">
+        <ul>
+            <li>
+                <img src="Images/paraglider-icon.png" alt="paraglider">
+                Paragliding
+            </li>
+            <li>
+                <img src="Images/sky-diver.png" alt="sky-diver">
+                Skydiving
+            </li>
+            <li>
+                <img src="Images/climbing.png" alt="climbing">
+                Climbing
+            </li>
+            <li>
+                <img src="Images/about-us.png" alt="abautUs">
+                About Us
+            </li>
+        </ul>
+
+        <form method="post">
+            <fieldset id="first">
+                <legend>Personal Info</legend>
+                <label for="PI">
+                    <img src="Images/user1.png" alt="picture">
+                </label>
+                <input type="text" name="PI" id="PI" placeholder="Enter your full name">
+                <br>
+                <label for="email">
+                    <img src="Images/email.png" alt="e-mail">
+                </label>
+                <input type="email" id="email" placeholder="Enter a valid e-mail">
+                <br>
+                <label for="phone">
+                    <img src="Images/phone.png" alt="phone">
+                </label>
+                <input type="number" id="phone" placeholder="Enter a phone number">
+            </fieldset>
+            <fieldset>
+                <legend>Flight Info</legend>
+
+                <label for="fly2">Are flying for first time?</label>
+                <br>
+                <input type="radio" name="fly" id="fly">
+                <label for="fly">Yes</label>
+                <input type="radio" name="fly" id="fly2">
+                <label for="fly2">No</label>
+                <br>
+
+                <label for="destination">Choose Destination</label>
+                <select name="destination" id="destination">
+                    <optgroup label="Bulgaria">
+                        <option value="Dobrostan" selected="selected">Dobrostan</option>
+                        <option value="Sopot">Sopot</option>
+                        <option value="Sofia">Sofia</option>
+                        <option value="Bourgas">Bourgas</option>
+                    </optgroup>
+                    <optgroup label="Rest of the world">
+                        <option value="Nepal">Nepal</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="France">France</option>
+                    </optgroup>
+                </select>
+
+                <label for="DT">Choose date</label>
+                <input type="text" name="DT" id="DT" placeholder="mm / dd / yyyy">
+            </fieldset>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </form>
+    </div>
+</body>
+</html>

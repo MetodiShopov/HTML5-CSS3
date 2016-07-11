@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    margin: auto;
+}
+#container{
+    width:960px;
+    margin: auto;
+}
+@font-face {
+    font-family: RicksAmerican;
+    src: url('../Fonts/RicksAmericanNF.ttf');
+}
+header{
+    font-family: RicksAmerican, arial, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFA301;
+    letter-spacing: 20px;
+    text-align: center;
+}
+nav{
+    font-family: RicksAmerican, arial, sans-serif;
+    font-size: 30px;
+    color: #FFA301;
+    margin: auto;
+    text-transform: uppercase;
+}
+main{
+    background-color: #3C3C3C;
+    display: inline-block;
+    padding: 10px 20px;
+}
+article{
+    width: 60%;
+    float: left;
+}
+.title{
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 1px black;
+    text-align: center;
+}
+.images{
+    width: 300px;
+}
+div > img{
+    width: 100%;
+    float: left;
+    padding-right: 10px;
+}
+footer{
+    color: #FFA301;
+    text-align: center;
+}
+footer > p{
+    color: #FFA301;
+    margin:0;
+}
+article > p {
+    text-align:justify;
+}
+article > p::first-letter{
+    text-indent: 50px;
+}
+p{
+    color: #FFA301;
+    margin: 10px;
+}
+span{
+    color: #FFA301;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 3px 3px 1px black;
+    text-align:justify;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+li{
+    display: inline-block;
+    margin: 0 20px;
+    padding: 5px 55px;
+}
+li:hover{
+    cursor: pointer;
+    background-color: #FFA301;
+    border-radius: 25px;
+    color: initial;
+}
+figure {
+    width: 200px;
+    height: 159px;
+    border-radius: 15px;
+    float: right;
+    border: 2px solid #FFA301;
+}
+#second{
+    width: 200px;
+    height: 115px;
+    border-radius: 15px;
+    float: right;
+    border: 2px solid #FFA301;
+}
+figure:hover{
+    cursor: pointer
+}
+figure:hover figcaption{
+    cursor: pointer;
+    background-color: #FFA301;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: #000;
+}
+figure > img{
+    width: 100%;
+    border-radius: 12px;
+    z-index: -1;
+}
+figcaption{
+    text-align: center;
+    color: #FFA301;
+    font-weight: 700;
+    position: relative;
+    bottom: 20px;
+    background-color: rgba(0,0,0, 0.7);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    z-index: 500;
+}
