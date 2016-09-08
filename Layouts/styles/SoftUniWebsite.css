@@ -1,0 +1,188 @@
+body>header{
+    background-color: #234465;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px 25px;
+}
+header>a{
+    margin-right: 30px;
+}
+.searchBar>input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0;
+    border: none;
+    height: 20px;
+}
+::-webkit-input-placeholder {
+    text-indent: 10px;
+}
+.searchBar>button{
+    background-color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 22px;
+    margin-left: 1px;
+}
+button:hover{
+    cursor: pointer;
+}
+body>section{
+    background-color: #EEEEEE;
+    padding: 30px 85px;
+}
+section>h1{
+    color: #234465;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+article{
+    height: 415px;
+    width: 350px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 2px 5px #888888;
+    padding: 35px 35px;
+    margin-right: 25px;
+    float: left;
+}
+article>p>span{
+    font-weight: bold;
+    color: #5A5A5A;
+}
+footer{
+    background-color: #234465;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+footer>section{
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+}
+section>button{
+    border: 2px solid #FF9C00;
+    background-color: #234465;
+    color: white;
+    width: 155px;
+    height: 40px;
+    align-self: center;
+    margin-top: 20px;
+}
+section>h4{
+    text-transform: uppercase;
+    color: #FF9C00;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    color: white;
+    margin-bottom: 5px;
+}
+.searchBar>p{
+    margin-right: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+nav{
+     width: 85%;
+ }
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navMenu>a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.withArrow{
+    background: url("../images/arrowDown.png") 100% no-repeat;
+    padding-right: 10px;
+}
+.dropDown-content{
+    display: none;
+    position: absolute;
+    background-color: #234465;
+    padding: 5px;
+}
+.dropDown-content a{
+    margin: 5px 0;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.dropDown:hover .dropDown-content {
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-transform: uppercase;
+    margin-top: 0;
+    color: #234465;
+}
+.date{
+    margin-bottom: 0;
+    text-align: right;
+}
+.publisher, .info{
+    color: #5A5A5A;
+    min-height: 36px;
+    margin-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.tags{
+    color: #999999;
+    font-size: 90%;
+}
+.navPage{
+    list-style: none;
+    padding: 0;
+    display: table;
+    clear: both;
+    margin-top: 490px;
+}
+.navPage:hover{
+    cursor: pointer;
+}
+.navPage>li{
+    height: 32px;
+    width: 32px;
+    border: 1px solid white;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #4CA0DB;
+    text-align: center;
+}
+.navPage>li:first-child{
+    background-color: #FF9C00;
+}
+.navPage>li>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.icons{
+    border: 1px solid #AFBFCA;
+    height: 26px;
+    width: 26px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
