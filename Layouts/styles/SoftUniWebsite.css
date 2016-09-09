@@ -2,7 +2,6 @@ body>header{
     background-color: #234465;
     height: 100px;
     display: flex;
-    justify-content: center;
     align-items: center;
     box-sizing: border-box;
     padding: 30px 25px;
