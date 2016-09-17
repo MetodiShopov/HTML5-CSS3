@@ -1,0 +1,155 @@
+$color-gray: #808080;
+$border: 1px double $color-gray;
+$color-purple: #300030;
+$color-blue: #0000AF;
+$color-green: #003000;
+$color-yellow: #F5F500;
+$color-orange: #EB9100;
+$color-red: #CD0000;
+
+@mixin linearOrRadail($type, $direction, $color){
+  @if ($type == 'linear'){
+    background: #{$type}-gradient(to $direction,$color, white);
+  }
+  @else {
+    background: #{$type}-gradient($color, white);
+  }
+}
+
+@mixin gradient($type, $direction){
+  &:first-child{
+    @include linearOrRadail($type, $direction, $color-purple);
+  }
+  &:nth-child(2){
+    @include linearOrRadail($type, $direction, $color-blue);
+  }
+  &:nth-child(3){
+    @include linearOrRadail($type, $direction, $color-green);
+  }
+  &:nth-child(4){
+    @include linearOrRadail($type, $direction, $color-yellow);
+  }
+  &:nth-child(5){
+    @include linearOrRadail($type, $direction, $color-orange);
+  }
+  &:nth-child(6){
+    @include linearOrRadail($type, $direction, $color-red);
+  }
+}
+body{
+  background: linear-gradient(#808080, #FFFFFF);
+  #wrapper{
+    width: 950px;
+    margin: auto;
+    background-color: white;
+    border: $border;
+    padding: 20px;
+
+    header, section, footer{
+      border: $border;
+    }
+    header{
+      h1{
+        color: $color-gray;
+        text-align: center;
+        font-weight: bolder;
+      }
+      nav{
+        ul{
+          padding: 0;
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          li{
+            width: 100px;
+            border: $border;
+            padding:  10px 20px;;
+            text-align: center;
+            vertical-align: middle;
+            margin: 0 15px;
+            &:hover{
+              background: linear-gradient(#808080, #FFFFFF);
+            }
+            &:hover a{
+              color: white;
+            }
+            a{
+              text-decoration: none;
+              color: $color-gray;
+              font-weight: bolder;
+            }
+          }
+        }
+      }
+    }
+    section{
+      margin-top: 20px;
+      padding: 0 20px 20px 20px;
+      header{
+        border: none;
+        h1{
+          text-decoration: underline;
+          color: $color-gray;
+        }
+      }
+      article{
+        margin-top: 20px;
+        border: 1px solid $color-gray;
+        padding: 20px;
+        header{
+          h2{
+            color: $color-gray;
+            font-size: 120%;
+            text-align: center;
+            margin-top: 0;
+          }
+        }
+        .innerContainer{
+          display: flex;
+          justify-content: space-around;
+          div{
+            height: 135px;
+            width: 135px;
+            border-radius: 15px;
+          }
+        }
+      }
+
+      #vertical + .innerContainer div{
+        @include gradient(linear,bottom);
+      }
+      #horizontal + .innerContainer div{
+        @include gradient(linear,right);
+      }
+      #diagonal + .innerContainer div{
+        @include gradient(linear,bottom right);
+      }
+      #radial + article .innerContainer div{
+        @include gradient(radial, null);
+      }
+    }
+
+    footer{
+      margin-top: 20px;
+      h3{
+        color: $color-gray;
+        text-align: center;
+        text-decoration: underline;
+      }
+      ul{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        li{
+          align-self: center;
+          a{
+            text-decoration: none;
+            color: $color-gray;
+          }
+        }
+      }
+    }
+  }
+}
