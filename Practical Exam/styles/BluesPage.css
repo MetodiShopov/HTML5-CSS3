@@ -10,7 +10,7 @@ body{
 }
 @font-face {
     font-family: RicksAmerican;
-    src: url('../Fonts/RicksAmericanNF.ttf');
+    src: url('../fonts/RicksAmericanNF.ttf');
 }
 header{
     font-family: RicksAmerican, arial, sans-serif;

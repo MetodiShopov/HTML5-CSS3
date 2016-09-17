@@ -5,7 +5,7 @@ table{
 	float: right;
 }
 td{
-	padding: 0px 5px 0px 5px;
+	padding: 0 5px 0 5px;
 	font-size:large;
 	font-weight:bolder;
     text-transform: uppercase;

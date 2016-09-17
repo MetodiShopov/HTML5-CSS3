@@ -40,7 +40,7 @@ input{
     color: white;
     background-color: #234465;
     border: 2px solid #FD9B01;
-    margin-top: 0px;
+    margin-top: 0;
     padding: 5px 40px;
     float: right;
 }

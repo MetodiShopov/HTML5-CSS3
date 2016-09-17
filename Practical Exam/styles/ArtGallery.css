@@ -18,16 +18,16 @@ a{
 }
 a:hover{
     color: white;
-    box-shadow: 0px 0px 20px #9F9892;
+    box-shadow: 0 0 20px #9F9892;
 }
 .white{
     background-color: white;
     padding: 30px 20px;
-    margin: 60px 0px;
+    margin: 60px 0;
 }
 #part1, #part3 {
     float: left;
-    padding: 0px 50px;
+    padding: 0 50px;
 }
 #part2{
     float: left;
@@ -44,5 +44,5 @@ a:hover{
     width: 170px;
     height:320px;
     border-radius: 10px;
-    background: url("../Images/picture.jpg") 250px 0;
+    background: url("../images/picture.jpg") 250px 0;
 }
